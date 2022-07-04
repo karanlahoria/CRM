@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="41.681731">
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="14.963159">
+        <system-out><![CDATA[Given User Already On Login Page............................................passed
+When Title of Login Page is Free CRM........................................passed
+Then User Enter "karanlahoria89@gmail.com" And "Selenium123"................passed
+Then User Click on Login button.............................................passed
+Then User is on Home Page...................................................passed
+Then user mouse over contact link and click on it...........................passed
+Then user enter "puneet" And "kumar"........................................passed
+Then user click on save button..............................................passed
+Then user on contacts page..................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario 2" time="26.718572">
+        <failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name='first_name']&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.1.4', revision: '535d840ee2'&#10;System info: host: 'Abhitoshs-MacBook-Pro.local', ip: '2607:9880:1d08:9:0:0:0:2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [07052a55-9e9f-429a-aff3-b0a4018f778e, findElement {using=xpath, value=//input[@name='first_name']}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:53947, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 19957, moz:profile: /var/folders/6r/wf0zgbts5hv..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.5.0, proxy: Proxy(), se:cdp: ws://localhost:53947/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 07052a55-9e9f-429a-aff3-b0a4018f778e&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)&#10;&#9;at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#10;&#9;at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)&#10;&#9;at pages.LoginPage.firstName(LoginPage.java:65)&#10;&#9;at stepDefinations.LoginStepsDefinations.user_enter_frist_and_last_name(LoginStepsDefinations.java:52)&#10;&#9;at ✽.Then user enter &quot;karan&quot; And &quot;lahoria&quot;(/Users/Kay/Desktop/Selenium_Workplace/FreeCRMBDDFramework/src/main/java/Features/contact.feature:30)&#10;"><![CDATA[Given User Already On Login Page............................................passed
+When Title of Login Page is Free CRM........................................passed
+Then User Enter "karanlahoria89@gmail.com" And "Selenium123"................passed
+Then User Click on Login button.............................................passed
+Then User is on Home Page...................................................passed
+Then user mouse over contact link and click on it...........................passed
+Then user enter "karan" And "lahoria".......................................failed
+Then user click on save button..............................................skipped
+Then user on contacts page..................................................skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name='first_name']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Abhitoshs-MacBook-Pro.local', ip: '2607:9880:1d08:9:0:0:0:2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [07052a55-9e9f-429a-aff3-b0a4018f778e, findElement {using=xpath, value=//input[@name='first_name']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:53947, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 19957, moz:profile: /var/folders/6r/wf0zgbts5hv..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.5.0, proxy: Proxy(), se:cdp: ws://localhost:53947/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 07052a55-9e9f-429a-aff3-b0a4018f778e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at pages.LoginPage.firstName(LoginPage.java:65)
+	at stepDefinations.LoginStepsDefinations.user_enter_frist_and_last_name(LoginStepsDefinations.java:52)
+	at ✽.Then user enter "karan" And "lahoria"(/Users/Kay/Desktop/Selenium_Workplace/FreeCRMBDDFramework/src/main/java/Features/contact.feature:30)
+]]></failure>
+    </testcase>
+</testsuite>
